@@ -24,9 +24,9 @@ RUN \
         cmake
 
 # Install c++ library dependency
-ADD ./lib /install-lib
-RUN /install-lib/boost/install.sh
-RUN rm -rf /install-lib
+ADD ./libs /dep
+RUN /dep/boost/install.sh
+RUN rm -rf /dep
 
 # Container setting
 WORKDIR /repo
