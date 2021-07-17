@@ -9,8 +9,7 @@ RUN \
         ca-certificates \
         libcurl4 \
         wget \
-        rsync \
-        iotop
+        rsync
 
 # Install complier tools
 RUN \
