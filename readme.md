@@ -25,6 +25,16 @@ dockerw start
 
 + 容器
     - [Smart Pointer](https://www.boost.org/doc/libs/release/libs/smart_ptr/)
+        + [boost smart pointer](https://www.programminghunter.com/article/8597642146/)
+            - 範例 ```. run.sh smart-pointer/boost```
+            - July 2007, **shared_ptr was entering the working paper that eventually became the C++11 standard.**
+        + C++11 shared & weak pointer，cppreference : [unique_ptr](https://en.cppreference.com/w/cpp/memory/unique_ptr)、[shared_ptr](https://en.cppreference.com/w/cpp/memory/shared_ptr)、[weak_ptr](https://en.cppreference.com/w/cpp/memory/weak_ptr)
+            - [智慧指標](https://zh.wikipedia.org/wiki/%E6%99%BA%E8%83%BD%E6%8C%87%E9%92%88)
+            - [建立和使用 shared_ptr 實例 MSDI](https://docs.microsoft.com/zh-tw/cpp/cpp/how-to-create-and-use-shared-ptr-instances?view=msvc-160)
+            - [建立和使用 weak_ptr 執行個體 MSDI](https://docs.microsoft.com/zh-tw/cpp/cpp/how-to-create-and-use-weak-ptr-instances?view=msvc-160)
+            - [避免 memory leak：C++11 Smart Pointer（上）](https://kheresy.wordpress.com/2012/03/03/c11_smartpointer_p1/)
+            - [避免 memory leak：C++11 Smart Pointer（下）](https://kheresy.wordpress.com/2012/03/05/c11_smartpointer_p2/)
+            - 範例 ```. run.sh smart-pointer/c++11```
     - [Array](https://www.boost.org/doc/libs/1_76_0/doc/html/array.html)
     - [Container](https://www.boost.org/doc/libs/1_76_0/doc/html/container.html)
     - [ContainerHash](https://www.boost.org/doc/libs/1_76_0/doc/html/hash.html)
