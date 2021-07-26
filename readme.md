@@ -35,6 +35,10 @@ dockerw start
             - [避免 memory leak：C++11 Smart Pointer（上）](https://kheresy.wordpress.com/2012/03/03/c11_smartpointer_p1/)
             - [避免 memory leak：C++11 Smart Pointer（下）](https://kheresy.wordpress.com/2012/03/05/c11_smartpointer_p2/)
             - 範例 ```. run.sh smart-pointer/c++11```
+                + Thread safety
+                    - [Full analysis of shared_ptr thread safety](https://ofstack.com/C++/8983/full-analysis-of-shared_ptr-thread-safety.html)
+                    - [GCC 4.8.4 weak_ptr::lock() 的實作](https://medium.com/fcamels-notes/gcc-4-8-4-weak-ptr-lock-%E7%9A%84%E5%AF%A6%E4%BD%9C-a37fd284dc8)
+                    - [Atomic Smart Pointers](https://www.modernescpp.com/index.php/atomic-smart-pointers)
     - [Array](https://www.boost.org/doc/libs/1_76_0/doc/html/array.html)
     - [Container](https://www.boost.org/doc/libs/1_76_0/doc/html/container.html)
     - [ContainerHash](https://www.boost.org/doc/libs/1_76_0/doc/html/hash.html)
