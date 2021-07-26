@@ -60,8 +60,10 @@ dockerw start
     - [Filesystem](https://www.boost.org/doc/libs/1_76_0/libs/filesystem/doc/index.htm)
     - [Format](https://www.boost.org/doc/libs/release/libs/format/)
     - [JSON](https://www.boost.org/doc/libs/1_76_0/libs/json/doc/html/index.html)
-    - [Lambda](https://www.boost.org/doc/libs/release/libs/lambda/)
-        + 範例 ```. run.sh lambda```
+    - [Lambda](https://zh.wikipedia.org/wiki/%E5%8C%BF%E5%90%8D%E5%87%BD%E6%95%B0)
+        + [Boost](https://www.boost.org/doc/libs/release/libs/lambda/))
+            - 範例 ```. run.sh lambda```
+        + [C++0x：Lambda expression](https://kheresy.wordpress.com/2010/05/27/c0x%ef%bc%9alambda-expression/
     - [Log](https://www.boost.org/doc/libs/release/libs/log/)
 
 ## 參考
