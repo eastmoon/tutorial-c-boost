@@ -45,6 +45,9 @@ dockerw start
     - [Heap](https://www.boost.org/doc/libs/1_76_0/doc/html/heap.html)
 + 平行運算  
     - [Thread](https://www.boost.org/doc/libs/release/libs/thread/)
+        + [Boost Thread vs C++ 11 Thread](https://mechatechnica.com/Blogs/Programming/Read?blogtype=CPP&id=1)
+            - **Between 2011 and 2014, Boost.Thread class has been modified to be similar to the standard. We can find very little differences if we compare the two. Indeed, it seem the reverse has happened, C++ 11 has influenced changes in Boost.**
+            - **Choosing between Boost and C++ 11 threads in a production environment**
     - [Atomic](https://www.boost.org/doc/libs/1_76_0/doc/html/atomic.html)
     - [Interprocess](https://www.boost.org/doc/libs/release/libs/interprocess/)
     - [Message Passing Interface (MPI)](https://www.boost.org/doc/libs/release/libs/mpi/)
