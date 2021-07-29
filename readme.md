@@ -48,7 +48,12 @@ dockerw start
         + [Boost Thread vs C++ 11 Thread](https://mechatechnica.com/Blogs/Programming/Read?blogtype=CPP&id=1)
             - **Between 2011 and 2014, Boost.Thread class has been modified to be similar to the standard. We can find very little differences if we compare the two. Indeed, it seem the reverse has happened, C++ 11 has influenced changes in Boost.**
             - **Choosing between Boost and C++ 11 threads in a production environment**
+            - [Report & Demo - 執行緒 ( Thread ) 與原子 ( Atome )](https://github.com/eastmoon/tutorial-c#%E5%9F%B7%E8%A1%8C%E7%B7%92--thread--%E8%88%87%E5%8E%9F%E5%AD%90--atome-)
     - [Atomic](https://www.boost.org/doc/libs/1_76_0/doc/html/atomic.html)
+        + [C++ std::atomic vs. Boost atomic](https://stackoverflow.com/questions/9551750)
+        + [Chapter 45. Boost.Atomic](https://theboostcpplibraries.com/boost.atomic)
+            - **If your development environment supports C++11, you don’t need Boost.Atomic. The C++11 standard library provides a header file atomic that defines the same functionality as Boost.Atomic. Boost.Atomic supports more or less the same functionality as the standard library.**
+            - [Report & Demo - 執行緒 ( Thread ) 與原子 ( Atome )](https://github.com/eastmoon/tutorial-c#%E5%9F%B7%E8%A1%8C%E7%B7%92--thread--%E8%88%87%E5%8E%9F%E5%AD%90--atome-)
     - [Interprocess](https://www.boost.org/doc/libs/release/libs/interprocess/)
     - [Message Passing Interface (MPI)](https://www.boost.org/doc/libs/release/libs/mpi/)
     - [Pool](https://www.boost.org/doc/libs/release/libs/pool/)
