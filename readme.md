@@ -39,6 +39,14 @@ dockerw start
                     - [Full analysis of shared_ptr thread safety](https://ofstack.com/C++/8983/full-analysis-of-shared_ptr-thread-safety.html)
                     - [GCC 4.8.4 weak_ptr::lock() 的實作](https://medium.com/fcamels-notes/gcc-4-8-4-weak-ptr-lock-%E7%9A%84%E5%AF%A6%E4%BD%9C-a37fd284dc8)
                     - [Atomic Smart Pointers](https://www.modernescpp.com/index.php/atomic-smart-pointers)
+    - [Pool](https://www.boost.org/doc/libs/release/libs/pool/)
+        + [C++應用程式效能優化（七）——記憶體池技術](https://www.gushiciku.cn/pl/g2Jw/zh-tw)
+            - **記憶體池(Memory Pool)是一種記憶體分配方式，是在真正使用記憶體前，先申請分配一定數量的、大小相等(一般情況下)的記憶體塊留作備用。當有新的記憶體需求時，就從記憶體池中分出一部分記憶體塊，若記憶體塊不夠再繼續申請新的記憶體。**
+            - [C++ smart pointer 之速度之討論（一）](https://ys-hayashi.me/2020/10/shared-ptr-speed/)
+        + [内存池(MemPool)技术实例 - boost::pool](http://cplusplus.wikidot.com/cn:mempool-example-boost-pool)
+        + 範例
+            - ```. run.sh pool/base```
+            - ```. run.sh pool/object```
     - [Array](https://www.boost.org/doc/libs/1_76_0/doc/html/array.html)
     - [Container](https://www.boost.org/doc/libs/1_76_0/doc/html/container.html)
     - [ContainerHash](https://www.boost.org/doc/libs/1_76_0/doc/html/hash.html)
@@ -56,7 +64,6 @@ dockerw start
             - [Report & Demo - 執行緒 ( Thread ) 與原子 ( Atome )](https://github.com/eastmoon/tutorial-c#%E5%9F%B7%E8%A1%8C%E7%B7%92--thread--%E8%88%87%E5%8E%9F%E5%AD%90--atome-)
     - [Interprocess](https://www.boost.org/doc/libs/release/libs/interprocess/)
     - [Message Passing Interface (MPI)](https://www.boost.org/doc/libs/release/libs/mpi/)
-    - [Pool](https://www.boost.org/doc/libs/release/libs/pool/)
 + 異步
     - [Asio](https://www.boost.org/doc/libs/1_76_0/doc/html/boost_asio.html)
     - [Beast](https://www.boost.org/doc/libs/1_76_0/libs/beast/doc/html/index.html)
