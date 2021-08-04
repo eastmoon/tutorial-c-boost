@@ -54,7 +54,7 @@ int main()
 
     // 取回 Pool 管理的物件區塊，並以 placement new 方式宣告此物件的建構函數
     // placement new ref : https://www.geeksforgeeks.org/placement-new-operator-cpp/
-    // placement new 是 C++ 用於做記憶體池的宣告技術，使用此方式可避免 new、delete 行為的 heap 記憶體區的處理 ( 降低宣告時間、記憶體碎片化 )，且物件已存於 stack 記憶體區。
+    // placement new 是 C++ 用於做記憶體池的宣告技術，使用此方式可避免 new、delete 行為的 heap 記憶體區的處理 ( 降低宣告時間、記憶體碎片化 )，且物件在程式啟動時宣告令其存於 stack 記憶體區。
     // 其問題，因 new 指向相同的記憶體區塊，多次生成也只為操作同個記憶區塊，並且需透過執行解構函數來做到記憶體釋放。
     std::cout << "-----" << std::endl;
     void* mem = alloc.malloc();
