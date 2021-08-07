@@ -74,6 +74,20 @@ dockerw start
     - [Generic Image Library (GIL)](https://www.boost.org/doc/libs/1_76_0/libs/gil/doc/html/index.html)
     - [Sort](https://www.boost.org/doc/libs/1_76_0/libs/sort/doc/html/index.html)
 + 工具
+    - [Test](https://www.boost.org/doc/libs/1_75_0/libs/test/doc/html/index.html)
+        + 參考
+            - [Single-header usage variant](https://www.boost.org/doc/libs/1_67_0/libs/test/doc/html/boost_test/usage_variants.html)
+                + **If you prefer to avoid the compilation of standalone library, you should use the single-header variant of the Unit Test Framework.**
+                + 若執行環境為 [Standalone library compilation](https://www.boost.org/doc/libs/1_48_0/libs/test/doc/html/utf/compilation/standalone.html) (環境優先編譯完成 Unit Test Framework)，則可選擇使用```#include <boost/test/unit_test.hpp>```，反之應使用```#include <boost/test/included/unit_test.hpp>```
+            - [Boost C++测试组件test库](https://blog.csdn.net/weixin_39956356/article/details/111385774)
+            - [Boost Test學習總結（C++）](https://www.itread01.com/content/1549267778.html)
+            - [C/C++ Boost 单元测试](https://blog.csdn.net/zhangxiao93/article/details/53169208)
+            - [Boost.Test Controlling outputs](https://www.boost.org/doc/libs/1_75_0/libs/test/doc/html/boost_test/test_output.html)
+                + Boost.Test 除了 UTF 的語法外，也可以配合編譯後的測試應用程式，依據命令參數控制其輸出內容```log_level```、```log_format```
+        + 範例
+            - ```. run.sh test/base```
+            - ```. run.sh test/fixture```
+            - ```. run.sh test/log```
     - [Chrono](https://www.boost.org/doc/libs/1_76_0/doc/html/chrono.html)
     - [DLL](https://www.boost.org/doc/libs/1_76_0/doc/html/boost_dll.html)
     - [Filesystem](https://www.boost.org/doc/libs/1_76_0/libs/filesystem/doc/index.htm)
