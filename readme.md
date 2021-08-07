@@ -74,6 +74,11 @@ dockerw start
     - [Generic Image Library (GIL)](https://www.boost.org/doc/libs/1_76_0/libs/gil/doc/html/index.html)
     - [Sort](https://www.boost.org/doc/libs/1_76_0/libs/sort/doc/html/index.html)
 + 工具
+    - [Assign](https://www.boost.org/doc/libs/1_76_0/libs/assign/doc/index.html)
+        + [Chapter 70. Boost.Assign](https://theboostcpplibraries.com/boost.assign)
+            - **The library Boost.Assign provides helper functions to initialize containers or add elements to containers. These functions are especially helpful if many elements need to be stored in a container.**
+        + [boost實用工具：assign庫了解學習](https://www.itread01.com/content/1498645342.html)
+            - **STL 容器僅提供了容納數據的方法，但是數據操作的步驟繁瑣 ( insert、push_back )，於是 boost::assign 重載了如 +=、() 等運算符，以便簡潔對 STL 容器初始化或賦值.**
     - [Test](https://www.boost.org/doc/libs/1_75_0/libs/test/doc/html/index.html)
         + 參考
             - [Single-header usage variant](https://www.boost.org/doc/libs/1_67_0/libs/test/doc/html/boost_test/usage_variants.html)
