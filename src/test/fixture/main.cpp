@@ -13,8 +13,8 @@ Boost.Test 中的 fixture ( 夾具、固定變數 ) 是提供不同 Test tree �
 // ref : https://www.boost.org/doc/libs/1_75_0/libs/test/doc/html/boost_test/tests_organization/fixtures/global.html
 struct global_fixture
 {
-    global_fixture() { std::cout << "FIXTURE : global setup" << std::endl; }
-    ~global_fixture() { std::cout << "FIXTURE : global teardown"  << std::endl; }
+    global_fixture() { BOOST_TEST_MESSAGE( "FIXTURE : global setup" ); }
+    ~global_fixture() { BOOST_TEST_MESSAGE( "FIXTURE : global teardown" ); }
 
     static int g;
 };
@@ -25,8 +25,8 @@ int global_fixture::g = 123;
 // ref : https://www.boost.org/doc/libs/1_75_0/libs/test/doc/html/boost_test/tests_organization/fixtures/per_test_suite_fixture.html
 struct suit_fixture
 {
-    suit_fixture() : v({1,2,3,4,5}) { std::cout << "FIXTURE : suit setup" << std::endl; }
-    ~suit_fixture() { std::cout << "FIXTURE : suit teardown" << std::endl; }
+    suit_fixture() : v({1,2,3,4,5}) { BOOST_TEST_MESSAGE( "FIXTURE : suit setup" ); }
+    ~suit_fixture() { BOOST_TEST_MESSAGE( "FIXTURE : suit teardown" ); }
 
     std::vector<int> v;
 };
